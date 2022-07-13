@@ -1,0 +1,292 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Tahoma, Arial;
+  }
+  .slider-container {
+    margin: 10px auto;
+    width: 700px;
+    height: 250px;
+    position: relative;
+  }
+  .slider-container img {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+    width: 650px ;
+    height: 250px;
+  }
+  .slider-container img.active {
+    opacity: 1;
+  }
+  .slider-container .slide-number {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, .6);
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 20px;
+    z-index: 2;
+    border-radius: 6px;
+  }
+  .slider-controls {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .slider-controls .prev,
+  .slider-controls .next {
+    background-color: #009688;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    user-select: none;
+    width: 20%;
+  }
+  .slider-controls .prev {
+    float: left;
+  }
+  .slider-controls .next {
+    float: right;
+  }
+  .slider-controls .prev.disabled,
+  .slider-controls .next.disabled {
+    background-color: rgba(0, 150, 136, 0.5);
+    cursor: no-drop;
+  }
+  .slider-controls .indicators {
+    width: 60%;
+    float: left;
+  }
+  .slider-controls .indicators ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+  }
+  .slider-controls .indicators ul li {
+    display: inline-block;
+    background-color: #F6F6F6;
+    color: #333;
+    font-weight: bold;
+    height: 28px;
+    width: 28px;
+    border-radius: 4px;
+    margin: 0 2px;
+    line-height: 28px;
+    cursor: pointer;
+  }
+  .slider-controls .indicators ul li.active {
+    background-color: #009688;
+    color: #FFF;
+  } */
+  /* to do app   */
+  /* * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Tahoma;
+  }
+  .todo-container {
+    margin: 30px auto 0;
+    background-color: #F6F6F6;
+    width: 600px;
+  }
+  .todo-container .add-task {
+    padding: 15px;
+    background-color: #009688;
+    position: relative;
+  }
+  .todo-container .add-task input {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, .3);
+    width: calc(100% - 15px);
+    color: #FFF;
+    font-size: 20px;
+  }
+  .todo-container .add-task input:focus {
+    outline: none;
+  }
+  .todo-container .add-task .plus {
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    background-color: #FFF;
+    right: 12px;
+    border-radius: 50%;
+    line-height: 43px;
+    text-align: center;
+    color: #009688;
+    cursor: pointer;
+    font-size: 38px;
+    -webkit-transition: transform .3s;
+    -moz-transition: transform .3s;
+    transition: transform .3s;
+  }
+  .todo-container .add-task .plus:hover {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .todo-container .tasks-content {
+    padding: 15px;
+  }
+  .todo-container .tasks-content .no-tasks-message {
+    color: #777;
+    font-size: 15px;
+  }
+  .todo-container .tasks-content > span {
+    display: block;
+    background-color: #FFF;
+    padding: 10px;
+  }
+  .todo-container .tasks-content > span:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .todo-container .tasks-content .task-box .delete {
+    float: right;
+    background-color: #E91E63;
+    padding: 4px 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .todo-container .tasks-content .task-box.finished {
+    text-decoration: line-through;
+  }
+  .task-stats {
+    overflow: hidden;
+    margin: 10px auto;
+    width: 600px;
+    font-size: 12px;
+  }
+  .task-stats .tasks-count {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+  .task-stats .tasks-completed {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    text-align: right;
+  }
+  .task-stats .tasks-count span,
+  .task-stats .tasks-completed span {
+    color: #FFF;
+    padding: 1px 5px;
+    font-size: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  .task-stats .tasks-count span {
+    background-color: #E91E63;
+  }
+  .task-stats .tasks-completed span {
+    background-color: #03A9F4;
+  }
+  */
+  /* fetch git hup  */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Tahoma, Arial;
+  }
+  .repos-container {
+    width: 800px;
+    background-color: #F6F6F6;
+    margin: auto;
+  }
+  .repos-container .get-repos {
+    padding: 20px;
+    display: flex;
+    background-color: #EEE;
+  }
+  .repos-container .get-repos input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    height: 54px;
+  }
+  .repos-container .get-repos input:focus {
+    outline: 2px solid #F44336;
+  }
+  .repos-container .get-repos .get-button {
+    width: 140px;
+    margin-left: 10px;
+    height: 54px;
+    background-color: #F44336;
+    color: #FFF;
+    line-height: 54px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .repos-container .show-data {
+    padding: 20px;
+    background-color: #E0E0E0;
+  } */
+  .repos-container .show-data .repo-box {
+    background-color: #FFF;
+    padding: 15px;
+  }
+  .repos-container .show-data .repo-box:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  .repos-container .show-data .repo-box a,
+  .repos-container .show-data .repo-box span {
+    float: right;
+    margin-left: 4px;
+    border-radius: 4px; 
+    color: #FFF;
+    font-size: 12px;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+  }
+  .repos-container .show-data .repo-box a {
+    text-decoration: none;
+    background-color: #E91E63;
+  }
+  .repos-container .show-data .repo-box span {
+    background-color: #009688;
+  }
+  .repos-container .show-data .repo-box {
+    background-color: #FFF;
+    padding: 15px;
+  }
+  .repos-container .show-data .repo-box:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  .repos-container .show-data .repo-box a,
+  .repos-container .show-data .repo-box span {
+    float: right;
+    margin-left: 4px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 12px;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+  }
+  .repos-container .show-data .repo-box a {
+    text-decoration: none;
+    background-color: #E91E63;
+  }
+  .repos-container .show-data .repo-box span {
+    background-color: #009688;
+  }
+  /* /* hang man  */
